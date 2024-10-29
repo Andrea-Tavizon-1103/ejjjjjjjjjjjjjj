@@ -12,4 +12,14 @@
 - 11 Creando el proyecto --> django-admin startproject backend .
 - 12 Realizar migracion al preoyecto --> python manage.py migrate
 - 13 Ejecutar servidor --> python manage.py runserver
+- 14 python manage.py startapp accesorios_app
+- 15 settings backend 'accesorios_app',
+- 16 base de datos DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'accesorios.db',
+    }
+}
+- 17 migrate
+- 18 urls
 - 
